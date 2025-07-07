@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="content" content="text/html;charset=UTF-8" />
+    <title>laboratory information management system</title>
+    <link rel="stylesheet" href="reset.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>实验室信息管理系统</h1>
+        <p>欢迎使用实验室信息管理系统！</p>
+        <p>请点击下面的按钮开始使用：</p>
+        <button onclick="location.href='login.html'">登录</button>
+        <button onclick="location.href='register.html'">注册</button>
+    </div>
+    <script src="script.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #4CAF50;
+        }
+
+        button {
+            padding: 10px 20px;
+            margin: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: #4CAF50;
+            color: white;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 15px;
+            }
+
+            h1 {
+                font-size: 24px;
+            }
+
+            button {
+                width: 100%;
+                margin: 5px 0;
+            }
+        }
+    </style>
+    <script>
+        // JavaScript code can be added here if needed
+        console.log("Welcome to the Laboratory Information Management System!");
+    </script>
+</body>
+
+
+</html>
